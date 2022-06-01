@@ -3,7 +3,8 @@
 	<version>1.1.1.0</version>
 	<title>
         <en>VIP Order Manager</en>
-		<de>VIP Auftrags Manager</de>
+	<de>VIP Auftrags Manager</de>
+	<ru>Менеджер VIP-заказов</ru>
     </title>
     <description>
         <de><![CDATA[Der VIP Order Manager bietet dem Landwirt VIP Aufträge an, die aus mehreren zu liefernden Produkten bestehen. 
@@ -130,11 +131,13 @@ Update 1.1.0
 			<de>Durchblättern VIP Aufträge</de>
 			<en>Flip VIP Orders</en>
 			<it>Vedi Ordini VIP correnti</it>
+			<ru>Просмотр VIP-заказов</ru>
 		</text>		
 		<text name="input_ShowVIPOrderDlg">
 			<de>Anzeige des VIP Auftragsdialogs</de>
 			<en>Shows VIP Orders Dialog</en>
 			<it>Mostra la panoramnica degli Ordini VIP</it>
+			<ru>Инфодисплей текущего VIP-заказа</ru>
 		</text>
 
 	<!-- Abort Dlg -->
@@ -142,11 +145,13 @@ Update 1.1.0
 			<de>Abbruch aktuellen VIP Auftrag</de>
 			<en>Aborting current VIP Orders</en>
 			<it>Annulla gli Ordini VIP correnti</it>
+			<ru>Отменить текущий VIP-заказ</ru>
 		</text>
 		<text name="VIPOrderManager_DlgMsg_AbortCurrentVIPOrder">
 			<de>Du musst eine Abbruchgebühr von %s bezahlen. Für die bereits abgeschlossenen Teilaufträge erhältst du %s.</de>
 			<en>You have to pay a aborting fee of %s. For the already completed partial orders you will receive %s.</en>
 			<it>Devi pagare una commissione di %s per l'annullamento. Per gli ordini parziali già consegnati ricevi una somma di %s.</it>
+			<ru>С вашего счёта спишут %s за отмену контракта. Вы получите %s за частичное выполнение заказа.</ru>
 		</text>
 
 	<!-- HUD -->
@@ -154,21 +159,25 @@ Update 1.1.0
 			<de>Aktueller VIP Auftrag</de>
 			<en>Current VIP Order</en>
 			<it>Ordine VIP corrente</it>
+			<ru>Текущий VIP-заказ</ru>
 		</text>
 		<text name="VIPOrderManager_NextVIPOrder">
 			<de>Nächster VIP Auftrag</de>
 			<en>Next VIP Order</en>
 			<it>Prossimo Ordine VIP</it>
+			<ru>Следующий VIP-заказ</ru>
 		</text>
 		<text name="VIPOrderManager_Payout">
 			<de>Auszahlung: %s</de>
 			<en>Payout: %s</en>
 			<it>Pagamento: %s</it>
+			<ru>За выполнение: %s</ru>
 		</text>
 		<text name="VIPOrderManager_OrderCompleted">
 			<de>Der aktuelle VIP-Auftrag wurde abgeschlossen.</de>
 			<en>Current VIP order was completed.</en>
 			<it>Ordine VIP corrente completato.</it>
+			<ru>VIP-заказ выполнен.</ru>
 		</text>
 
 	<!-- Neuer Dlg -->
@@ -176,51 +185,61 @@ Update 1.1.0
 			<de>Übersicht der VIP-Aufträge</de>
 			<en>Overview VIP Orders</en>
 			<it>Panoramica Ordini VIP</it>
+			<ru>VIP-заказы</ru>
 		</text>		
         <text name="ui_orderDlg_header_product">
 			<de>Produkt</de>	
 			<en>Product</en>
 			<it>Prodotto</it>
+			<ru>Продукт</ru>
         </text>		
         <text name="ui_orderDlg_header_requested">
 			<de>Angefordert</de>	
 			<en>Requested</en>
 			<it>Richiesto</it>
+			<ru>Требуется</ru>
         </text>		
         <text name="ui_orderDlg_header_delivered">
 			<de>Geliefert</de>
 			<en>Delivered</en>
 			<it>Consegnato</it>
+			<ru>Доставлено</ru>
         </text>		
         <text name="ui_orderDlg_header_payout">
 			<de>Auszahlung</de>	
 			<en>Payout</en>
 			<it>Pagamento</it>
+			<ru>За выполн.</ru>
         </text>		
         <text name="ui_orderDlg_header_station">
 			<de>Lieferstation</de>	
 			<en>Delivery station</en>
 			<it>Luogo di Consegna</it>
+			<ru>Пункт доставки</ru>
         </text>		
         <text name="ui_orderDlg_btnClose">
 			<de>Schließen</de>	
 			<en>Close</en>
 			<it>Chiuso</it>
+			<ru>Закрыть</ru>
 		</text>		
         <text name="ui_orderDlg_btnAbort">
 			<de>Abbruch des aktuellen VIP Auftrags</de>	
 			<en>Abort current VIP Order</en>
 			<it>Annulla l'Ordine VIP corrente</it>
+			<ru>Отмена текущего VIP-заказа</ru>
 		</text>		
         <text name="ui_orderDlg_section_active">
 			<de>Level %s - Auszahlung: %s (Aktiv)</de>	
 			<en>Level %s - Payout: %s (Active)</en>
 			<it>Livello %s - Pagamento: %s (Attivo)</it>
+			<ru>Уровень %s - Плата: %s (текущий)</ru>
 		</text>		
         <text name="ui_orderDlg_section_notactive">
 			<de>Level %s - Auszahlung: %s</de>	
 			<en>Level %s - Payout: %s</en>
 			<it>Livello %s - Pagamento: %s</it>
+			<ru>Уровень %s - Общая сумма: %s</ru>
 		</text>		
 	</l10n>
 </modDesc>
