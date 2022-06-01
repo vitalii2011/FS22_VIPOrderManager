@@ -151,7 +151,7 @@ Update 1.1.0
 			<de>Du musst eine Abbruchgebühr von %s bezahlen. Für die bereits abgeschlossenen Teilaufträge erhältst du %s.</de>
 			<en>You have to pay a aborting fee of %s. For the already completed partial orders you will receive %s.</en>
 			<it>Devi pagare una commissione di %s per l'annullamento. Per gli ordini parziali già consegnati ricevi una somma di %s.</it>
-			<ru>С вашего счёта спишут %s за отмену контракта. Вы получите %s за частичное выполнение заказа.</ru>
+			<ru>С вашего счёта спишут %s за отмену контракта. Вы получите %s за уже выполненные заказы контракта.</ru>
 		</text>
 
 	<!-- HUD -->
